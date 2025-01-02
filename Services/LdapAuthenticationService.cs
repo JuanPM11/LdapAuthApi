@@ -1,7 +1,6 @@
 ﻿using LdapAuthApi.Models;
 using Microsoft.Extensions.Options;
 using Novell.Directory.Ldap;
-using System;
 
 public class LdapAuthenticationService
 {
@@ -9,7 +8,9 @@ public class LdapAuthenticationService
 
     public LdapAuthenticationService(IOptions<LdapSettings> ldapSettings)
     {
-        _ldapSettings = ldapSettings.Value; 
+        _ldapSettings = ldapSettings.Value;  
+
+
     }
 
     public bool AuthenticateUser(string username, string password)

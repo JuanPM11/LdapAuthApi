@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LdapAuthApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9d409073159a7bdbaf6e5adb260e76455b9fe07")]
 [assembly: System.Reflection.AssemblyProductAttribute("LdapAuthApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LdapAuthApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

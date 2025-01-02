@@ -26,6 +26,7 @@ namespace LdapAuthApi.Services
             }
         }
 
+
         public string GenerateJwtToken(string username)
         {
             var claims = new[]
